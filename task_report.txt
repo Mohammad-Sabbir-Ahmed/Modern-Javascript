@@ -1,0 +1,190 @@
+Course Content
+======================================================================================================
+Lesson 001. Why You Should Take This Course.mp4
+Lesson 002. Why JavaScript is Amazing.mp4
+Lesson 003. Setting up Your Environment.mp4
+Lesson 004. Course Files.mp4
+Lesson 005. Adding JavaScript to a Web Page.mp4
+Lesson 006. The Browser Console.mp4
+Lesson 007. Variables, Constants & Comments.mp4
+Lesson 008. Data Types at a Glance.mp4
+Lesson 009. Strings.mp4
+Lesson 010. Common String Methods.mp4
+Lesson 011. Numbers.mp4
+Lesson 012. Template Strings.mp4
+Lesson 013. Arrays.mp4
+Lesson 014. Null & Undefined.mp4
+Lesson 015. Booleans & Comparisons.mp4
+Lesson 016. Loose vs Strict Comparison.mp4
+Lesson 017. Type Conversion.mp4
+Lesson 018. What is Control Flow.mp4
+Lesson 019. For Loops.mp4
+Lesson 020. While Loops.mp4
+Lesson 021. Do While Loops.mp4
+Lesson 022. If Statements.mp4
+Lesson 023. Else & Else If.mp4
+Lesson 024. Logical Operators.mp4
+Lesson 025. Logical NOT.mp4
+Lesson 026. Break & Continue.mp4
+Lesson 027. Switch Statements.mp4
+Lesson 028. Variables & Block Scope.mp4
+
+
+
+
+
+Lesson 029. What are Functions.mp4
+Lesson 030. Function Declarations & Expressions.mp4
+Lesson 031. Arguments & Parameters.mp4
+Lesson 032. Returning Values.mp4
+Lesson 033. Arrow Functions.mp4
+Lesson 034. Functions vs Methods.mp4
+Lesson 035. Foreach Method & Callbacks.mp4
+Lesson 036. Callback Functions in Action.mp4
+
+
+
+Lesson 037. Objects at a Glance.mp4
+Lesson 038. Creating an Object Literal.mp4
+Lesson 039. Adding Methods.mp4
+Lesson 040. 'this' Keyword.mp4
+Lesson 041. Objects in Arrays.mp4
+Lesson 042. Math Object.mp4
+Lesson 043. Primitive vs Reference Types.mp4
+
+
+
+Lesson 044. Interacting with the Browser.mp4
+Lesson 045. The DOM Explained.mp4
+Lesson 046. The Query Selector.mp4
+Lesson 047. Other Ways to Query the DOM.mp4
+Lesson 048. Adding & Changing Page Content.mp4
+Lesson 049. Getting & Setting Attributes.mp4
+Lesson 050. Changing CSS Styles.mp4
+Lesson 051. Adding & Removing Classes.mp4
+Lesson 052. Parents, Children & Siblings.mp4
+Lesson 053. Event Basics (click events).mp4
+Lesson 054. Creating & Removing Elements.mp4
+Lesson 055. Event Bubbling (and delegation).mp4
+Lesson 056. More DOM Events.mp4
+Lesson 057. Building a Popup.mp4
+Lesson 058. Events Inside Forms.mp4
+Lesson 059. Submit Events.mp4
+Lesson 060. Regular Expressions.mp4
+Lesson 061. Testing RegEx Patterns.mp4
+Lesson 062. Basic Form Validation.mp4
+Lesson 063. Keyboard Events.mp4
+Lesson 064. Project Preview & Setup.mp4
+Lesson 065. Bootstrap Basics.mp4
+Lesson 066. HTML Template.mp4
+Lesson 067. Checking Answers.mp4
+Lesson 068. Showing the Score.mp4
+Lesson 069. The Window Object.mp4
+Lesson 070. Intervals & Animating the Score.mp4
+Lesson 071. Filter Method.mp4
+Lesson 072. Map Method.mp4
+Lesson 073. Reduce Method.mp4
+Lesson 074. Find Method.mp4
+Lesson 075. Sort Method.mp4
+Lesson 076. Chaining Array Methods.mp4
+Lesson 077. Project Preview and Setup.mp4
+Lesson 078. HTML & CSS Template.mp4
+Lesson 079. Adding Todos.mp4
+Lesson 080. Deleting Todos.mp4
+Lesson 081. Searching & Filtering Todos.mp4
+Lesson 082. Dates & Times in JavaScript.mp4
+Lesson 083. Timestamps & Comparisons.mp4
+Lesson 084. Building a Digital Clock.mp4
+Lesson 085. Date-fns Library.mp4
+Lesson 086. What is Asynchronous JavaScript.mp4
+Lesson 087. Async Code in Action.mp4
+Lesson 088. What are HTTP Requests.mp4
+Lesson 089. Making HTTP Requests (XHR).mp4
+Lesson 090. Response Status.mp4
+Lesson 091. Callback Functions.mp4
+Lesson 092. JSON Data.mp4
+Lesson 093. Callback Hell.mp4
+Lesson 094. Promise Basics.mp4
+Lesson 095. Chaining Promises.mp4
+Lesson 096. The Fetch API.mp4
+Lesson 097. Async & Await.mp4
+Lesson 098. Throwing & Catching Errors.mp4
+Lesson 099. Project Preview & Setup.mp4
+Lesson 100. HTML & CSS Template.mp4
+Lesson 101. AccuWeather API.mp4
+Lesson 102. Get City API Call.mp4
+Lesson 103. Get Weather API Call.mp4
+Lesson 104. Updating the Location.mp4
+Lesson 105. Object Shorthand Notation.mp4
+Lesson 106. Updating the UI.mp4
+Lesson 107. Destructuring.mp4
+Lesson 108. Weather Icons & images.mp4
+Lesson 109. Ternary Operator.mp4
+Lesson 110. What is Local Storage.mp4
+Lesson 111. Storing & Getting Data.mp4
+Lesson 112. Deleting Storage Data.mp4
+Lesson 113. Stringifying & Parsing Data.mp4
+Lesson 114. Updating the Weather App.mp4
+Lesson 115. What is OOP.mp4
+Lesson 116. Object Literal Recap.mp4
+Lesson 117. Classes.mp4
+Lesson 118. Class Constructors.mp4
+Lesson 119. Class Methods & Method Chaining.mp4
+Lesson 120. Class Inheritance (subclasses).mp4
+Lesson 121. Super( ).mp4
+Lesson 122. Constructors (under the hood).mp4
+Lesson 123. Prototype Model.mp4
+Lesson 124. Prototypal Inheritance.mp4
+Lesson 125. Built-in Objects.mp4
+Lesson 126. Making a Forecast Class (weather app).mp4
+Lesson 127. NoSQL Databases.mp4
+Lesson 128. Firebase & Firestore.mp4
+Lesson 129. Connecting to Firestore.mp4
+Lesson 130. Getting Collections.mp4
+Lesson 131. Saving Documents.mp4
+Lesson 132. Deleting Documents.mp4
+Lesson 133. Real-time Listeners.mp4
+Lesson 134. Unsubscribing.mp4
+Lesson 135. Project Preview & Setup.mp4
+Lesson 136. HTML Template.mp4
+Lesson 137. Connecting to Firebase.mp4
+Lesson 138. Chatroom Class & Adding Chats.mp4
+Lesson 139. Setting up a Real-time Listener.mp4
+Lesson 140. Complex Queries.mp4
+Lesson 141. Updating the Room & Username.mp4
+Lesson 142. Creating a ChatUI Class.mp4
+Lesson 143. Formatting the Dates.mp4
+Lesson 144. Sending New Chats.mp4
+Lesson 145. Changing Username & Local Storage.mp4
+Lesson 146. Updating the Room.mp4
+Lesson 147. Testing the App.mp4
+Lesson 148. Spread & Rest.mp4
+Lesson 149. Sets.mp4
+Lesson 150. Symbols.mp4
+Lesson 151. Modern Feature Support.mp4
+Lesson 152. An Introduction to Babel.mp4
+Lesson 153. Installing Node.js & Babel.mp4
+Lesson 154. Using the Babel CLI.mp4
+Lesson 155. NPM Scripts & Watching Files.mp4
+Lesson 156. What is Webpack.mp4
+Lesson 157. Setting up a Webpack File.mp4
+Lesson 158. Webpack CLI.mp4
+Lesson 159. Introduction to Modules.mp4
+Lesson 160. Default Exports.mp4
+Lesson 161. Watching for Changes.mp4
+Lesson 162. The Webpack Dev Server.mp4
+Lesson 163. Production & Development Modes.mp4
+Lesson 164. Babel & Webpack Together.mp4
+Lesson 165. Webpack Boilerplate.mp4
+Lesson 166. Project Preview & Setup.mp4
+Lesson 167. CSS & Style Loaders (webpack).mp4
+Lesson 168. Tooltips.mp4
+Lesson 169. Dropdowns.mp4
+Lesson 170. Tabbed Content.mp4
+Lesson 171. Snackbars.mp4
+Lesson 172. Extending the Library.mp4
+Lesson 173. Bonus Lecture Next Steps.mp4
+
+
+
+

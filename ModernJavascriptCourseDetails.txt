@@ -1,0 +1,17 @@
+Course Name: Modern Javascript
+-------------------------------------------------------
+
+Starting Date: 06-08-2021
+Ending Date: 06-10-2021   (Estimated)
+
+Tools related to this Course
+-------------------------------------------------------
+
+1. VSCode
+2. Google Chrome
+
+
+
+
+
+
