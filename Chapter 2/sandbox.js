@@ -501,28 +501,441 @@
 // Lesson 028
 // Variables & Block Scope.mp4
 
-const age = 30;
+// const age = 30;
 
-if(true){
-    const age = 40;
-    const name = 'shaun';
-    console.log('Inside the 1st codeBlog!', age, name);
+// if(true){
+//     const age = 40;
+//     const name = 'shaun';
+//     console.log('Inside the 1st codeBlog!', age, name);
 
-    if(true){
-        const age = 50;
-        console.log('Inside the 2nd codeBlog!', age, name);
-        var test = 'hello';
-    }
-}
-
-
-// var ignores block scope
-
-console.log('Outside the codeBlog!', age, test);
+//     if(true){
+//         const age = 50;
+//         console.log('Inside the 2nd codeBlog!', age, name);
+//         var test = 'hello';
+//     }
+// }
 
 
+// // var ignores block scope
+
+// console.log('Outside the codeBlog!', age, test);
 
 
+
+//=======================================================//
+
+// Lesson 029
+// What are Functions.mp4
+
+
+//=======================================================//
+
+// Lesson 030
+// Function Declarations & Expressions.mp4
+
+// // function declaration
+// function greet(){
+//     console.log('hello there..');
+// }
+
+
+// // function expression
+// const speak = function(){
+//     console.log('Good Day...');
+// };
+
+
+// greet();
+// greet();
+// greet();
+
+// speak();
+//=======================================================//
+// Lesson 031
+// Arguments & Parameters.mp4
+
+
+// const speak= function(name, time){
+//     console.log(`good ${time} ${name}`);
+// };
+
+// speak('mario', 'morning');
+
+// const greet = function(name='luigi', time='night'){
+//     console.log(`Good ${time}, ${name}`);
+// };
+
+// greet();
+// greet('shaun', 'day');
+// greet('Jack');
+
+
+
+//=======================================================//
+// Lesson 032
+// Returning Values.mp4
+
+// const calcArea = function(radius){
+//     // let area = 3.14 * radius**2;
+//     // return area;
+
+//     // or we can write
+//     return 3.14 * radius**2;
+    
+// };
+
+
+// const area = calcArea(5);
+// console.log(area);
+
+
+// const calcVol = function(area){
+
+// };
+
+// console.log(area);
+
+//=======================================================//
+// Lesson 033
+// Arrow Functions.mp4
+
+
+// const calcArea = function(radius){
+//     let area = 3.14 * radius**2;
+//     return area;
+// };
+
+
+// // arrow function
+// // const calcArea = (radius) => {
+// //     return 3.14 * radius**2;
+// // };
+
+
+// // if we have  single parameter in the arrow function, we can write
+// const calcArea = radius =>{
+//     return 3.14 * radius**2;
+// };
+
+// const area = calcArea(5);
+// console.log("Area is: ", area);
+
+
+// // but if there is  multiple parameter or no parameter paranthesis are must
+// const test = ()=>{
+//     console.log("It's finger licking testy!");
+// }
+// test();
+
+
+
+// const test2 = ()=> console.log('Another implementation of arrow function!');
+// test2();
+
+
+
+// // returns a value without return keyword
+// const likeCount = like => `There are total ${like} likes`;
+// console.log(likeCount(10));
+
+
+// const greet = function(){
+//     return 'hello, world';
+// }
+
+
+// const greet = ()=> 'hello, world';
+
+// console.log(greet());
+
+
+// const bill  = function(products, tax){
+//     let total = 0;
+//     for(let i=0; i<products.length; i++){
+//         total += products[i] + products[i]*tax;
+//     }
+
+//     return total;
+// }
+
+
+// const bill = (products, tax) =>{
+//     let total = 0;
+//     for(let i=0; i<products.length; i++){
+//         total += products[i] + products[i]*tax;
+//     }
+//     return total;
+// };
+
+
+// console.log(bill([10, 15, 30], 0.2));
+
+
+//=======================================================//
+// Lesson 034
+// Functions vs Methods.mp4
+
+// const name = 'shaun';
+
+// // function
+// const greet = () => 'hello';
+
+// let resultOne = greet();
+// console.log(resultOne);
+
+
+// // method
+
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+
+
+//=======================================================//
+// Lesson 035
+// Foreach Method & Callbacks.mp4
+
+// callback & foreach
+
+// const myFunc = (callbackFunc)=>{
+//     // do something
+//     let value = 50;
+//     callbackFunc(value);
+// };
+
+// // myFunc(function(value){
+// //     // do something
+// //     console.log(value);
+// // });
+
+// myFunc(value => {
+//      // do something
+//      console.log(value);
+// });
+
+
+// let peopel = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+
+// // peopel.forEach(function(person){
+// //     console.log(person);
+// // });
+
+// const logPerson = (person, index) => {
+//     console.log(`${index} - hello ${person}`);
+// }
+// // peopel.forEach((person, index) =>{
+// //     console.log(index, person);
+// // });
+
+// peopel.forEach(logPerson);
+
+//=======================================================//
+// Lesson 036
+// Callback Functions in Action.mp4
+
+// const ul = document.querySelector('.people');
+
+// const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+
+
+// let html =``;
+// people.forEach(person => {
+//     // creates an html templates for each person
+//     html += `<li style="color: purple"> ${person}</li>`;
+// });
+
+// console.log(html);
+
+// ul.innerHTML = html;
+
+
+//=======================================================//
+// Lesson 037
+// Objects at a Glance.mp4
+
+
+
+
+//=======================================================//
+// Lesson 038
+// Creating an Object Literal.mp4
+
+
+// object literals
+
+// let user = {
+//     name: 'crystal',
+//     age: 30,
+//     email: 'crystal@thenetnija.co.uk',
+//     location: 'berlin',
+//     blogs: ['why mac & cheese rules', '10 things to make with marmite']
+// };
+
+// console.log(user);
+// console.log(user.name)
+
+// const key = 'location';
+
+// user.age = 23;
+// console.log(user.age);
+// user['name'] = 'chun-li';
+// console.log(user['name']);
+// console.log(user['email']);
+
+
+// console.log(typeof(user))
+
+
+//=======================================================//
+
+// Lesson 039
+// Adding Methods.mp4
+
+// let user = {
+//     name: 'crystal',
+//     age: 30,
+//     email: 'crystal@thenetnija.co.uk',
+//     location: 'berlin',
+//     blogs: ['why mac & cheese rules', '10 things to make with marmite'],
+//     login: function(){
+//         console.log('the user logged in');
+//     },
+//     logout: function(){
+//         console.log('user logged out');
+//     },
+
+// };
+
+// user.login();
+// user.logout();
+// const name = 'mario';
+// name.toUpperCase();
+
+
+//=======================================================//
+// Lesson 040
+// 'this' Keyword.mp4
+
+
+
+
+// let user = {
+//     name: 'crystal',
+//     age: 30,
+//     email: 'crystal@thenetnija.co.uk',
+//     location: 'berlin',
+//     blogs: ['why mac & cheese rules', '10 things to make with marmite'],
+//     login: function(){
+//         console.log('the user logged in');
+//     },
+//     logout: function(){
+//         console.log('user logged out');
+//     },
+//     logBlogs: function(){
+//         // console.log(this.blogs);
+//         console.log('this user written the following blogs: ');
+//         this.blogs.forEach( blog =>{
+//             console.log(blog);
+//         })
+//     }
+// };
+
+// user.logBlogs();
+// user.login();
+// user.logout();
+// const name = 'mario';
+// name.toUpperCase();
+//=======================================================//
+
+
+
+// Lesson 041
+// Objects in Arrays.mp4
+
+// const blogs = [
+//     {title: 'why mac & chese rules', likes: 30},
+//     {title: '10 things to make with marmite', likes: 50}
+// ];
+
+// // console.log(blogs);
+
+
+// let user = {
+
+//     name: 'crystal',
+//     age: 30,
+//     email: 'crystal@thenetnija.co.uk',
+//     location: 'berlin',
+//     blogs: [
+//         {title: 'why mac & chese rules', likes: 30},
+//         {title: '10 things to make with marmite', likes: 50}
+//     ],
+//     login: function(){
+//         console.log('the user logged in');
+//     },
+//     logout: function(){
+//         console.log('user logged out');
+//     },
+//     logBlogs: function(){
+//         // console.log(this.blogs);
+//         console.log('this user written the following blogs: ');
+//         this.blogs.forEach( blog =>{
+//             console.log(blog.title, blog.likes);
+//         })
+//     }
+// };
+
+// user.logBlogs();
+
+
+//=======================================================//
+// Lesson 042
+// Math Object.mp4
+
+
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
+
+// const area = 7.7;
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+
+// // random numbers
+
+// const random =  Math.random();
+
+// console.log(random);
+// console.log(Math.round(random*100));
+
+//=======================================================//
+// Lesson 043
+// Primitive vs Reference Types.mp4
+
+
+
+// primitive values
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo ${scoreTwo}`);
+
+scoreOne = 100;
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo ${scoreTwo}`);
+
+
+
+// reference values
+
+const userOne = {name: 'ryu', age: 30};
+const userTwo = userOne;
+
+console.log(userOne, userTwo);
+
+userOne.age = 40
+console.log(userOne, userTwo);
+
+//=======================================================//
 
 
 //=======================================================//
@@ -532,14 +945,87 @@ console.log('Outside the codeBlog!', age, test);
 //=======================================================//
 
 
+//=======================================================//
+
+
+//=======================================================//
+
+//=======================================================//
+
+
+//=======================================================//
+
 
 //=======================================================//
 
 
 
+//=======================================================//
+
 
 //=======================================================//
 
+
+//=======================================================//
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+
+//=======================================================//
+
+//=======================================================//
+
+
+//=======================================================//
 
 
 //=======================================================//
