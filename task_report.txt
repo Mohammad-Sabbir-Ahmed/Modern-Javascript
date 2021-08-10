@@ -28,11 +28,6 @@ Lesson 025. Logical NOT.mp4
 Lesson 026. Break & Continue.mp4
 Lesson 027. Switch Statements.mp4
 Lesson 028. Variables & Block Scope.mp4
-
-
-
-
-
 Lesson 029. What are Functions.mp4
 Lesson 030. Function Declarations & Expressions.mp4
 Lesson 031. Arguments & Parameters.mp4
@@ -41,9 +36,6 @@ Lesson 033. Arrow Functions.mp4
 Lesson 034. Functions vs Methods.mp4
 Lesson 035. Foreach Method & Callbacks.mp4
 Lesson 036. Callback Functions in Action.mp4
-
-
-
 Lesson 037. Objects at a Glance.mp4
 Lesson 038. Creating an Object Literal.mp4
 Lesson 039. Adding Methods.mp4
@@ -186,5 +178,21 @@ Lesson 172. Extending the Library.mp4
 Lesson 173. Bonus Lecture Next Steps.mp4
 
 
+
+
+git init 
+git add README.md 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mohammad-Sabbir-Ahmed/Test-Ground.git
+
+
+echo "# Modern-Javascript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mohammad-Sabbir-Ahmed/Modern-Javascript.git
+git push -u origin main
 
 
